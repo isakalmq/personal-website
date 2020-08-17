@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block more_head %}
+<link rel="stylesheet" type="text/css" href='{{ url_for("static", filename="css/home.css") }}'>
+{% endblock more_head %}
+
+{% block content %}
+<div class='main-container'>
+    <div>
+        <img class='profile-picture' src="{{ url_for('static', filename='pictures/me.jpg') }}"" alt='Picture of me'>
+    </div>
+    <div class='info-holder'>
+        <h1 >Isak Almquist</h1>
+        <p>Studerar och arbetar med undervisning i programmering vid <a  href="https://liu.se/">Linköpings universitet</a></p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/isak-almquist/">Linkedin</a></li>
+            <li><a href="https://www.facebook.com/Isak.almquist2/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/isakalmq/">Instagram</a></li>
+        </ul>
+    </div>
+</div>
+{% endblock content %}

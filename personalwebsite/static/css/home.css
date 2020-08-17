@@ -5,6 +5,33 @@
 .info-holder {
     padding: 1rem;
 }
+
+ul {
+    list-style-type: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #6f81a1;
+  text-decoration: none;
+}
+  
+/* visited link */
+a:visited {
+  color: #6f81a1;
+  text-decoration: none;
+}
+  
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+  
+/* selected link */
+a:active {
+    color: blue;
+}
+
 .profile-picture {
     border: 2px solid #ddd;
     padding: 3px;
